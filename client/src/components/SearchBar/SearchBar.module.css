@@ -1,0 +1,29 @@
+
+.searchBarContainer {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.searchBarContainer input {
+  margin-right: 10px;
+  padding: 5px;
+  border: none;
+  font-size: 16px;
+  color: #333;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  flex: 1;
+}
+
+.searchBarContainer button {
+  background-color: #ffac47;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding:  10px;
+  font-size: 16px;
+  cursor: pointer;
+}

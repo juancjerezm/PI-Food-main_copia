@@ -1,0 +1,30 @@
+.card {
+  /* border: 1px solid #000; */
+  width: min-content;
+  height: 450px;
+  border-radius: 10px;
+  background-color: #f99538;
+  color: #121212;
+  box-shadow: 5px 5px 10px rgb(211, 210, 210);
+  transform: scale(1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.img {
+  border-radius: 5%;
+  height: 25vh;
+  width: 14vw;
+  /* margin-top: 2%; */
+  margin: 0.9em;
+  object-fit: cover;
+}
+
+.name {
+  font-size: 18px;
+  margin: 0.8em;
+  
+}

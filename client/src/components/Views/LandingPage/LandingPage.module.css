@@ -1,0 +1,40 @@
+.container {
+  background: url("../../../assets/background/img1.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: center;
+  margin: 0;
+  align-items: center;
+}
+.button {
+    text-decoration: none;
+    /* display: flex; */
+    align-items: center;
+    background-color: #fe9900;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #000000;
+    font-size: 30px;
+    font-weight: 700;
+    height: 4rem;
+    padding: 0 1.6rem;
+    text-align: center;
+  
+    transition: all 0.5s;
+    margin-bottom: 50px;
+    letter-spacing: 5px;
+  }
+
+
+.button:hover {
+  border-radius: 20px;
+  box-shadow: #f7af51 0 0px 30px;
+  transition-duration: 0.1s;
+  cursor: pointer;
+}
